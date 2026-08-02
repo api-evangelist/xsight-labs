@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: xsightlabs.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 11 05:58:11 2026 GMT
+  hsts: null
+domains:
+- domain: xsightlabs.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

@@ -1,0 +1,29 @@
+# Xsight Labs
+
+> Xsight Labs is a fabless semiconductor company providing end-to-end connectivity with optimized power and performance for AI, cloud, and hyperscale data centers. It builds X-Series programmable Ethernet switch silicon (3.2-12.8 Tbps, sub-700ns latency) programmable via XISA — the first fully open, documented switch instruction set architecture (published under MPLv2) — and the E-Series, the industry's first fully software-defined 800G DPU family with 64 Arm Neoverse N2 cores in the data path, programmable with standard Linux tooling (XDP, DPDK, SPDK) and no proprietary SDK. Xsight Labs publishes silicon documentation and open-source SONiC/SAI platform code rather than a hosted web API.
+
+## Products
+
+- [X-Series switch silicon](https://xsightlabs.com/switches): Programmable Ethernet switch silicon, 3.2-12.8 Tbps, open XISA architecture, sub-700ns latency
+- [XISA](https://xsightlabs.com/switches/xisa): The Xsight Instruction Set Architecture — the first open switch ISA (Parser ISA + MAP ISA), published under MPLv2
+- [E-Series DPU](https://xsightlabs.com/dpu): Fully software-defined 800G Data Processing Unit — 64 Arm Neoverse N2 cores in the data path, standard Linux programming model (XDP, DPDK, SPDK)
+
+## Docs
+
+- [Technical Documentation](https://xsightlabs.com/documentation): XISA specifications, architecture guides, programming examples for X-Series and E-Series
+- [Support](https://xsightlabs.com/support): FAQ and technical support
+- [Blog](https://xsightlabs.com/blog)
+- [Newsroom](https://xsightlabs.com/newsroom)
+
+## Source Code
+
+- [GitHub organization](https://github.com/xsightlabs): SONiC platform code (xsight-sonic-buildimage, sonic-xsight-binaries) and SAI implementation (x-SAI)
+
+## Optional
+
+- [About](https://xsightlabs.com/about)
+- [Partners](https://xsightlabs.com/partners)
+- [Careers](https://xsightlabs.com/careers)
+- [Contact](https://xsightlabs.com/contact)
+- [Privacy policy](https://xsightlabs.com/privacy-policy)
+- [Terms and Conditions of Sale](https://xsightlabs.com/terms-conditions)

@@ -1,8 +1,18 @@
 aid: xsight-labs
 name: Xsight Labs
-description: Xsight Labs is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Xsight Labs is a fabless semiconductor company redefining AI and cloud
+  connectivity with end-to-end, software-defined silicon for hyperscale data centers.
+  Its X-Series programmable Ethernet switch silicon (X1, X2) delivers 3.2-12.8 Tbps
+  with sub-700ns latency and is programmable through XISA, the first fully open,
+  documented switch instruction set architecture, published under MPLv2. Its E-Series
+  is billed as the industry's first fully software-defined 800G DPU family, placing
+  64 Arm Neoverse N2 cores directly in the data path and programmable with standard
+  Linux tooling (XDP, DPDK, SPDK) with no proprietary SDK. Xsight Labs contributes
+  SONiC platform code and a SAI implementation through its public GitHub organization.
+  Backed by Battery Ventures among other investors. The company publishes technical
+  documentation, XISA specifications, and programming examples rather than a hosted
+  web API; no public OpenAPI, REST endpoints, or hosted API surface were found during
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/xsight-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,59 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/u/200502334?v=4
 tags:
 - Company
+- Semiconductors
+- Networking
+- Data Center
+- Switch Silicon
+- DPU
+- AI Infrastructure
+- SONiC
+- Ethernet
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/xsight-labs-domain-security.yml
+- type: Website
+  url: https://xsightlabs.com
+- type: Documentation
+  url: https://xsightlabs.com/documentation
+- type: Support
+  url: https://xsightlabs.com/support
+- type: Blog
+  url: https://xsightlabs.com/blog
+- type: PrivacyPolicy
+  url: https://xsightlabs.com/privacy-policy
+- type: TermsOfService
+  url: https://xsightlabs.com/terms-conditions
+- type: GitHubOrganization
+  url: https://github.com/xsightlabs
+- type: LLMsTxt
+  url: llms/xsight-labs-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

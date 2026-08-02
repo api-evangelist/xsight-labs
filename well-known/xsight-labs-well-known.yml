@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: probed
+host: https://xsightlabs.com
+note: >-
+  Every probe returned HTTP 429 from a Vercel bot-mitigation challenge
+  (x-vercel-mitigated challenge header); the www host is behind a Cloudflare
+  block (HTTP 403). No well-known documents could be verified as present or
+  absent. No raw files were captured.
+documents:
+- path: /.well-known/security.txt
+  status: 429
+- path: /.well-known/openid-configuration
+  status: 429
+- path: /.well-known/oauth-authorization-server
+  status: 429
+- path: /.well-known/api-catalog
+  status: 429
+- path: /.well-known/ai-plugin.json
+  status: 429
+- path: /llms.txt
+  status: 429
+- path: /robots.txt
+  status: 429
