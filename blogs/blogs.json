@@ -3,12 +3,12 @@
   "feeds": [
     {
       "source": "https://xsightlabs.com/support",
-      "feed_url": "https://xsightlabs.com/support",
+      "feed_url": "https://xsightlabs.com/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "discovered"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-09-13T13:00:00Z"
+  "fetched": "2026-09-19T20:17:39Z"
 }
