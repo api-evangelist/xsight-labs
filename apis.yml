@@ -50,7 +50,7 @@ tags:
 - Company
 - Semiconductors
 - Networking
-- Data-Center
+- Data Center
 - Switch Silicon
 - DPU
 - AI Infrastructure
@@ -68,6 +68,7 @@ tags_raw:
 - SONiC
 - Ethernet
 - Hardware
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
